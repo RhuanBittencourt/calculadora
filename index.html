@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>JavaScript</title>
+</head>
+<body>
+
+    <div class="text-area">
+        <h1>Calculadora <span>IMC</span>  </h1>
+        <p>O Índice de Massa Corporal (IMC) é um cálculo que indica se uma pessoa está com o peso ideal em relação à sua altura.</p>
+        <img src="image-page.png" alt="imagem">
+    </div>
+    <div id="form-area">
+        <form onsubmit="return calcular(event)">
+            <label>Digite aqui seu peso:</label> <br>
+            <input type="text" name="peso" id="peso" placeholder="Exemplo 65"> 
+            <br><br>
+            <label>Digite aqui sua altura:</label> <br>
+            <input type="text" name="altura" id="altura" placeholder="Exemplo 1.78"> 
+            <br><br>
+            <input id="button" type="submit" value="Calcular IMC">
+    
+        </form>
+        
+        <style>
+
+        </style>
+        <div id="resultado"></div>
+    </div>
+    
+    
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
