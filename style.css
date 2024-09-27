@@ -180,3 +180,14 @@ body {
         display: none;
     }
 }
+
+span {
+    font-weight: bold;
+    color: red;
+}
+
+
+#ideal {
+    font-weight: bold;
+    color: green;
+}
