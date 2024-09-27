@@ -105,12 +105,13 @@ body {
         width: 100%;
         max-width: 400px;
         margin: auto;
-        height: 100% ;
+        height: 100vh ;
         background: linear-gradient(0deg, #8CD2F4 0%, #F095F5 100%);
         background-repeat: no-repeat;
         display:flex ;
         flex-direction: column;
         align-items: center;
+        justify-content: center;
         padding: 1rem ;
         text-align: center;
     
@@ -156,18 +157,18 @@ body {
     
     .text-area h1 {
         color: #ffffff;
-        font-size: 2rem;
+        font-size: 2.9rem;
         font-weight: bold;
     }
     
     .text-area span {
         color:#0D0940;
-        font-size: 1.5rem;
+        font-size: 2rem;
     }
     
     .text-area p {
         color: #ffffff;
-        font-size: 1rem;
+        font-size: 1.5rem;
         max-width: 100%;
         margin: 2rem 0 0 0 ;
     }
